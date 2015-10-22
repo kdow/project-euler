@@ -9,12 +9,14 @@ var isPrime = function (j) {
   }
 };
 
+//solving for numbers smaller than 10000000
+
 for (var i = 1; i < 100000000; i++) {
  if (a % i === 0) {
      if (isPrime(i)) {
        var answer = i;
      }
- }
+  }
 }  
 
 console.log(answer);
