@@ -1,0 +1,16 @@
+var a = 1;
+var b = 2;
+var c = 3;
+var total = 2;
+
+while (c < 4000000) {
+  var a = b;
+  var b = c;
+  var c = a + b;
+  
+  if (c % 2 === 0) {
+  total += c;
+  } 
+}
+
+console.log(total);
